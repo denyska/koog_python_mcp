@@ -1,0 +1,18 @@
+{
+    "name": "Koog Python MCP",
+    "image": "mcr.microsoft.com/devcontainers/universal:linux",
+    "features": {},
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-kotlin",
+                "ms-python.python"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            }
+        }
+    },
+    "remoteUser": "root",
+    "forwardPorts": [8000],
+}
